@@ -9,9 +9,7 @@
         <config key="variable-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="select-vectorizer"/>
-                <entry key="1" type="xstring" value="n-threads"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -26,21 +24,20 @@
         </config>
         <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
         <config key="port-names">
-            <entry key="array-size" type="xint" value="2"/>
+            <entry key="array-size" type="xint" value="1"/>
             <entry key="0" type="xstring" value="Port 1"/>
-            <entry key="1" type="xstring" value="Port 2"/>
         </config>
         <config key="port-descriptions">
-            <entry key="array-size" type="xint" value="2"/>
+            <entry key="array-size" type="xint" value="1"/>
             <entry key="0" type="xstring" value=""/>
-            <entry key="1" type="xstring" value=""/>
         </config>
+        <entry key="sub-node-description" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="isDeletable" type="xboolean" value="false"/>
-    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
-    <entry key="node-name" type="xstring" value="Component Output"/>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Input"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -53,37 +50,24 @@
         <config key="port_0">
             <entry key="index" type="xint" value="0"/>
             <config key="type">
-                <entry key="object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-            </config>
-        </config>
-        <config key="port_1">
-            <entry key="index" type="xint" value="1"/>
-            <config key="type">
-                <entry key="object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
             </config>
         </config>
     </config>
-    <entry key="name" type="xstring" value="Component Output"/>
+    <entry key="name" type="xstring" value="Component Input"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
-    <config key="ports"/>
-    <config key="internalObjects">
-        <entry key="location" type="xstring" value="internalTables"/>
-        <config key="content">
-            <config key="object_0">
-                <entry key="index" type="xint" value="0"/>
-                <entry key="type" type="xstring" value="referenced_output"/>
-                <entry key="outport" type="xint" value="0"/>
-            </config>
-            <config key="object_1">
-                <entry key="index" type="xint" value="1"/>
-                <entry key="type" type="xstring" value="referenced_output"/>
-                <entry key="outport" type="xint" value="0"/>
-            </config>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2200, Cols: 96"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8d54833d-5751-459c-aa13-cdd77ab4c63f"/>
+        <entry key="file_store_id" type="xstring" value="93159eed-d231-4e57-8a49-d8187413fcda"/>
     </config>
 </config>
