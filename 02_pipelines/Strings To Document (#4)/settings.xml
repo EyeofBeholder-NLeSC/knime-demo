@@ -116,7 +116,7 @@
         <entry key="version" type="xstring" value="V_2019_09_13"/>
         <config key="tree">
             <config key="Number of threads">
-                <entry key="used_variable" type="xstring" value="n_threads"/>
+                <entry key="used_variable" type="xstring" value="n-threads"/>
                 <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
             </config>
         </config>
@@ -162,6 +162,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" value="filestore"/>
-        <entry key="file_store_id" type="xstring" value="dbeefd57-4879-4c11-b49e-6243e83c9a6b"/>
+        <entry key="file_store_id" type="xstring" value="164b5087-2e5a-4f6a-abee-cee8f312382e"/>
     </config>
 </config>
