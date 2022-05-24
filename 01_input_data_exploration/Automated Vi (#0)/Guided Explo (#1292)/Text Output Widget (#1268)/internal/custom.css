@@ -1,0 +1,46 @@
+div.sidetext {
+	background-color: #efefef;
+	padding-top: 10%;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    	height: 100%;
+    	width: 90%;
+    	position: absolute;
+}
+
+p.sidetext {
+	font-size: 10pt;
+}
+
+li.sidetext {
+	font-size: 10pt;
+}
+ul.sidetext {
+	font-size: 10pt;
+}
+
+h1.sidetext {
+	font-size: 16pt;
+}
+h2.sidetext {
+	font-size: 14pt;
+}
+
+h3.sidetext {
+	font-size: 12pt;
+}
+
+
+
+body {
+    height: 100% !important;
+    position: absolute !important;
+    width: 100% !important; }
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-abx8{font-weight:bold;background-color:#c0c0c0;text-align:center;vertical-align:top}
+.tg .tg-cscf{font-weight:bold;background-color:#c0c0c0;border-color:#000000;text-align:center;vertical-align:top}
+.tg .tg-tz6l{font-style:italic;background-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}

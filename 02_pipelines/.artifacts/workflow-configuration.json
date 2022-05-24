@@ -1,0 +1,8 @@
+
+{
+    "n_threads-7": {
+        "label": "Label",
+        "type": "integer",
+        "default": 4
+    }
+}

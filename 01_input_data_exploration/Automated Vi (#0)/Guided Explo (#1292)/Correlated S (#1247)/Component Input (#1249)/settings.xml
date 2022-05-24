@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="variables"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="column_y"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="q_0_school_answer"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="column_x"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="q_0_school_value"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="type"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="max"/>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="sub_sun"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Inner Circle:  q_0_school_value - Outer Circle:  q_0_school_answer"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css_slider"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010%%00010body {%%00010%%00009width: auto !important; height: auto !important}%%00010%%00010%%00009%%00009    %%00010.noUi-connect {%%00010%%00009background-color: #ffd73c !important;%%00010%%00009}%%00010%%00010%%00010div.label {%%00010    margin: 0px 0px !important;%%00010    color: black !important;%%00010    font-size: 12pt; }"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css_sidebar"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="div.sidetext {%%00010%%00009background-color: #efefef;%%00010%%00009padding-top: 10%;%%00010    %%00009padding-left: 5%;%%00010    %%00009padding-right: 5%;%%00010    %%00009height: 100%;%%00010    %%00009width: 90%;%%00010    %%00009position: absolute;%%00010}%%00010%%00010p.sidetext {%%00010%%00009font-size: 10pt;%%00010}%%00010%%00010li.sidetext {%%00010%%00009font-size: 10pt;%%00010}%%00010ul.sidetext {%%00010%%00009font-size: 10pt;%%00010}%%00010%%00010h1.sidetext {%%00010%%00009font-size: 16pt;%%00010}%%00010h2.sidetext {%%00010%%00009font-size: 14pt;%%00010}%%00010%%00010h3.sidetext {%%00010%%00009font-size: 12pt;%%00010}%%00010%%00010%%00010%%00010body {%%00010    height: 100% !important;%%00010    position: absolute !important;%%00010    width: 100% !important; }%%00010%%00010.tg  {border-collapse:collapse;border-spacing:0;}%%00010.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}%%00010.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}%%00010.tg .tg-abx8{font-weight:bold;background-color:#c0c0c0;text-align:center;vertical-align:top}%%00010.tg .tg-cscf{font-weight:bold;background-color:#c0c0c0;border-color:#000000;text-align:center;vertical-align:top}%%00010.tg .tg-tz6l{font-style:italic;background-color:#ffffff;text-align:left;vertical-align:top}%%00010.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css_expl"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010%%00010%%00010div.knime-table-container {%%00010%%00009padding-left: 3% !important; }%%00010div.knime-tab {%%00010%%00009padding-left: 3% !important;}%%00010%%00010body {%%00010%%00009width: auto !important; height: auto !important}%%00010%%00010%%00010%%00010%%00010#tabs .tab-content .tab-pane {%%00010%%00010    border-top: 1px solid #ddd !important;%%00010}%%00010%%00010table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr&gt;td:first-child:before, table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr&gt;th:first-child:before {%%00010    background-color: #ffd73c !important;%%00010    color: black !important;%%00010    border: 2px solid black !important;%%00010}%%00010%%00010table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr.parent&gt;td:first-child:before, table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr.parent&gt;th:first-child:before {%%00010    background-color: #ffd73c !important;%%00010}"/>
+        </config>
+        <config key="Variable_8">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010.knime-title {%%00010%%00009font-size: 12pt;%%00010%%00009font-weight: bold;%%00010%%00009font-style: italic;%%00010}%%00010%%00010%%00010h2.main_title {%%00010%%00009color: black;%%00010%%00009font-size: 16pt;%%00010%%00010}%%00010%%00010h3.main_title {%%00010%%00009color: black;%%00010%%00009font-size: 14pt;%%00010%%00010}%%00010%%00010p.main_intro {%%00010%%00009color: black;%%00010%%00009font-size: 12pt;%%00010}"/>
+        </config>
+        <config key="Variable_9">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="variables"/>
+        </config>
+        <config key="Variable_10">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="column_y"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="q_0_school_answer"/>
+        </config>
+        <config key="Variable_11">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="column_x"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="q_0_school_value"/>
+        </config>
+        <config key="Variable_12">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="type"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="max"/>
+        </config>
+        <config key="Variable_13">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="sub_sun"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Inner Circle:  q_0_school_value - Outer Circle:  q_0_school_answer"/>
+        </config>
+        <config key="Variable_14">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css_slider"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010%%00010body {%%00010%%00009width: auto !important; height: auto !important}%%00010%%00010%%00009%%00009    %%00010.noUi-connect {%%00010%%00009background-color: #ffd73c !important;%%00010%%00009}%%00010%%00010%%00010div.label {%%00010    margin: 0px 0px !important;%%00010    color: black !important;%%00010    font-size: 12pt; }"/>
+        </config>
+        <config key="Variable_15">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css_sidebar"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="div.sidetext {%%00010%%00009background-color: #efefef;%%00010%%00009padding-top: 10%;%%00010    %%00009padding-left: 5%;%%00010    %%00009padding-right: 5%;%%00010    %%00009height: 100%;%%00010    %%00009width: 90%;%%00010    %%00009position: absolute;%%00010}%%00010%%00010p.sidetext {%%00010%%00009font-size: 10pt;%%00010}%%00010%%00010li.sidetext {%%00010%%00009font-size: 10pt;%%00010}%%00010ul.sidetext {%%00010%%00009font-size: 10pt;%%00010}%%00010%%00010h1.sidetext {%%00010%%00009font-size: 16pt;%%00010}%%00010h2.sidetext {%%00010%%00009font-size: 14pt;%%00010}%%00010%%00010h3.sidetext {%%00010%%00009font-size: 12pt;%%00010}%%00010%%00010%%00010%%00010body {%%00010    height: 100% !important;%%00010    position: absolute !important;%%00010    width: 100% !important; }%%00010%%00010.tg  {border-collapse:collapse;border-spacing:0;}%%00010.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}%%00010.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}%%00010.tg .tg-abx8{font-weight:bold;background-color:#c0c0c0;text-align:center;vertical-align:top}%%00010.tg .tg-cscf{font-weight:bold;background-color:#c0c0c0;border-color:#000000;text-align:center;vertical-align:top}%%00010.tg .tg-tz6l{font-style:italic;background-color:#ffffff;text-align:left;vertical-align:top}%%00010.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}"/>
+        </config>
+        <config key="Variable_16">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css_expl"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010%%00010%%00010div.knime-table-container {%%00010%%00009padding-left: 3% !important; }%%00010div.knime-tab {%%00010%%00009padding-left: 3% !important;}%%00010%%00010body {%%00010%%00009width: auto !important; height: auto !important}%%00010%%00010%%00010%%00010%%00010#tabs .tab-content .tab-pane {%%00010%%00010    border-top: 1px solid #ddd !important;%%00010}%%00010%%00010table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr&gt;td:first-child:before, table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr&gt;th:first-child:before {%%00010    background-color: #ffd73c !important;%%00010    color: black !important;%%00010    border: 2px solid black !important;%%00010}%%00010%%00010table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr.parent&gt;td:first-child:before, table.dataTable.dtr-inline.collapsed&gt;tbody&gt;tr.parent&gt;th:first-child:before {%%00010    background-color: #ffd73c !important;%%00010}"/>
+        </config>
+        <config key="Variable_17">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="css"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010.knime-title {%%00010%%00009font-size: 12pt;%%00010%%00009font-weight: bold;%%00010%%00009font-style: italic;%%00010}%%00010%%00010%%00010h2.main_title {%%00010%%00009color: black;%%00010%%00009font-size: 16pt;%%00010%%00010}%%00010%%00010h3.main_title {%%00010%%00009color: black;%%00010%%00009font-size: 14pt;%%00010%%00010}%%00010%%00010p.main_intro {%%00010%%00009color: black;%%00010%%00009font-size: 12pt;%%00010}"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="variable-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="30"/>
+                <entry key="0" type="xstring" value="sub_sun"/>
+                <entry key="1" type="xstring" value="column_num"/>
+                <entry key="2" type="xstring" value="column_cat"/>
+                <entry key="3" type="xstring" value="viz_identifier"/>
+                <entry key="4" type="xstring" value="paral_miss_1"/>
+                <entry key="5" type="xstring" value="paral_miss_2"/>
+                <entry key="6" type="xstring" value="paral_miss_3"/>
+                <entry key="7" type="xstring" value="paral_miss_4"/>
+                <entry key="8" type="xstring" value="Column"/>
+                <entry key="9" type="xstring" value="Kurtosis"/>
+                <entry key="10" type="xstring" value="Skewness"/>
+                <entry key="11" type="xstring" value="Pearson-metric"/>
+                <entry key="12" type="xstring" value="type"/>
+                <entry key="13" type="xstring" value="column_x"/>
+                <entry key="14" type="xstring" value="column_y"/>
+                <entry key="15" type="xstring" value="spike_col"/>
+                <entry key="16" type="xstring" value="spike_score"/>
+                <entry key="17" type="xstring" value="0"/>
+                <entry key="18" type="xstring" value="1"/>
+                <entry key="19" type="xstring" value="Number (integer)"/>
+                <entry key="20" type="xstring" value="String"/>
+                <entry key="21" type="xstring" value="RowID"/>
+                <entry key="22" type="xstring" value="hide_border"/>
+                <entry key="23" type="xstring" value="css"/>
+                <entry key="24" type="xstring" value="css_header"/>
+                <entry key="25" type="xstring" value="Image"/>
+                <entry key="26" type="xstring" value="css_expl"/>
+                <entry key="27" type="xstring" value="css_expl_row"/>
+                <entry key="28" type="xstring" value="css_sidebar"/>
+                <entry key="29" type="xstring" value="css_slider"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+        <config key="port-names">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Port 1"/>
+        </config>
+        <config key="port-descriptions">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value=""/>
+        </config>
+        <entry key="sub-node-description" type="xstring" value=""/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="isDeletable" type="xboolean" value="false"/>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Input"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.2.v202203091352"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203091352"/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Component Input"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2200, Cols: 22"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="cf79a49b-e930-40d3-9f35-920ac4aafb68"/>
+    </config>
+</config>

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="colFilter_possVals">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="212"/>
+                <entry key="0" type="xstring" value="STATE"/>
+                <entry key="1" type="xstring" value="ST_CASE"/>
+                <entry key="2" type="xstring" value="VE_TOTAL"/>
+                <entry key="3" type="xstring" value="VE_FORMS"/>
+                <entry key="4" type="xstring" value="PVH_INVL"/>
+                <entry key="5" type="xstring" value="PEDS"/>
+                <entry key="6" type="xstring" value="PERNOTMVIT"/>
+                <entry key="7" type="xstring" value="PERMVIT"/>
+                <entry key="8" type="xstring" value="PERSONS"/>
+                <entry key="9" type="xstring" value="COUNTY"/>
+                <entry key="10" type="xstring" value="CITY"/>
+                <entry key="11" type="xstring" value="DAY"/>
+                <entry key="12" type="xstring" value="MONTH"/>
+                <entry key="13" type="xstring" value="YEAR"/>
+                <entry key="14" type="xstring" value="DAY_WEEK"/>
+                <entry key="15" type="xstring" value="HOUR"/>
+                <entry key="16" type="xstring" value="MINUTE"/>
+                <entry key="17" type="xstring" value="NHS"/>
+                <entry key="18" type="xstring" value="ROAD_FNC"/>
+                <entry key="19" type="xstring" value="ROUTE"/>
+                <entry key="20" type="xstring" value="MILEPT"/>
+                <entry key="21" type="xstring" value="SP_JUR"/>
+                <entry key="22" type="xstring" value="HARM_EV"/>
+                <entry key="23" type="xstring" value="MAN_COLL"/>
+                <entry key="24" type="xstring" value="RELJCT1"/>
+                <entry key="25" type="xstring" value="RELJCT2"/>
+                <entry key="26" type="xstring" value="TYP_INT"/>
+                <entry key="27" type="xstring" value="WRK_ZONE"/>
+                <entry key="28" type="xstring" value="REL_ROAD"/>
+                <entry key="29" type="xstring" value="LGT_COND"/>
+                <entry key="30" type="xstring" value="WEATHER1"/>
+                <entry key="31" type="xstring" value="WEATHER2"/>
+                <entry key="32" type="xstring" value="WEATHER"/>
+                <entry key="33" type="xstring" value="SCH_BUS"/>
+                <entry key="34" type="xstring" value="RAIL"/>
+                <entry key="35" type="xstring" value="NOT_HOUR"/>
+                <entry key="36" type="xstring" value="NOT_MIN"/>
+                <entry key="37" type="xstring" value="ARR_HOUR"/>
+                <entry key="38" type="xstring" value="ARR_MIN"/>
+                <entry key="39" type="xstring" value="HOSP_HR"/>
+                <entry key="40" type="xstring" value="HOSP_MN"/>
+                <entry key="41" type="xstring" value="CF1"/>
+                <entry key="42" type="xstring" value="CF2"/>
+                <entry key="43" type="xstring" value="CF3"/>
+                <entry key="44" type="xstring" value="FATALS"/>
+                <entry key="45" type="xstring" value="DRUNK_DR"/>
+                <entry key="46" type="xstring" value="STATE (#1)"/>
+                <entry key="47" type="xstring" value="VE_FORMS (#1)"/>
+                <entry key="48" type="xstring" value="VEH_NO"/>
+                <entry key="49" type="xstring" value="PER_NO"/>
+                <entry key="50" type="xstring" value="STR_VEH"/>
+                <entry key="51" type="xstring" value="COUNTY (#1)"/>
+                <entry key="52" type="xstring" value="DAY (#1)"/>
+                <entry key="53" type="xstring" value="MONTH (#1)"/>
+                <entry key="54" type="xstring" value="HOUR (#1)"/>
+                <entry key="55" type="xstring" value="MINUTE (#1)"/>
+                <entry key="56" type="xstring" value="ROAD_FNC (#1)"/>
+                <entry key="57" type="xstring" value="HARM_EV (#1)"/>
+                <entry key="58" type="xstring" value="MAN_COLL (#1)"/>
+                <entry key="59" type="xstring" value="SCH_BUS (#1)"/>
+                <entry key="60" type="xstring" value="BODY_TYP"/>
+                <entry key="61" type="xstring" value="TOW_VEH"/>
+                <entry key="62" type="xstring" value="SPEC_USE"/>
+                <entry key="63" type="xstring" value="EMER_USE"/>
+                <entry key="64" type="xstring" value="ROLLOVER"/>
+                <entry key="65" type="xstring" value="FIRE_EXP"/>
+                <entry key="66" type="xstring" value="AGE"/>
+                <entry key="67" type="xstring" value="SEX"/>
+                <entry key="68" type="xstring" value="PER_TYP"/>
+                <entry key="69" type="xstring" value="INJ_SEV"/>
+                <entry key="70" type="xstring" value="SEAT_POS"/>
+                <entry key="71" type="xstring" value="REST_USE"/>
+                <entry key="72" type="xstring" value="REST_MIS"/>
+                <entry key="73" type="xstring" value="AIR_BAG"/>
+                <entry key="74" type="xstring" value="EJECTION"/>
+                <entry key="75" type="xstring" value="EJ_PATH"/>
+                <entry key="76" type="xstring" value="EXTRICAT"/>
+                <entry key="77" type="xstring" value="DRINKING"/>
+                <entry key="78" type="xstring" value="ALC_DET"/>
+                <entry key="79" type="xstring" value="ALC_STATUS"/>
+                <entry key="80" type="xstring" value="ATST_TYP"/>
+                <entry key="81" type="xstring" value="ALC_RES"/>
+                <entry key="82" type="xstring" value="DRUGS"/>
+                <entry key="83" type="xstring" value="DRUG_DET"/>
+                <entry key="84" type="xstring" value="DSTATUS"/>
+                <entry key="85" type="xstring" value="DRUGTST1"/>
+                <entry key="86" type="xstring" value="DRUGTST2"/>
+                <entry key="87" type="xstring" value="DRUGTST3"/>
+                <entry key="88" type="xstring" value="DRUGRES1"/>
+                <entry key="89" type="xstring" value="DRUGRES2"/>
+                <entry key="90" type="xstring" value="DRUGRES3"/>
+                <entry key="91" type="xstring" value="HOSPITAL"/>
+                <entry key="92" type="xstring" value="DOA"/>
+                <entry key="93" type="xstring" value="DEATH_DA"/>
+                <entry key="94" type="xstring" value="DEATH_MO"/>
+                <entry key="95" type="xstring" value="DEATH_YR"/>
+                <entry key="96" type="xstring" value="DEATH_HR"/>
+                <entry key="97" type="xstring" value="DEATH_MN"/>
+                <entry key="98" type="xstring" value="DEATH_TM"/>
+                <entry key="99" type="xstring" value="LAG_HRS"/>
+                <entry key="100" type="xstring" value="LAG_MINS"/>
+                <entry key="101" type="xstring" value="P_SF1"/>
+                <entry key="102" type="xstring" value="P_SF2"/>
+                <entry key="103" type="xstring" value="P_SF3"/>
+                <entry key="104" type="xstring" value="WORK_INJ"/>
+                <entry key="105" type="xstring" value="HISPANIC"/>
+                <entry key="106" type="xstring" value="RACE"/>
+                <entry key="107" type="xstring" value="LOCATION"/>
+                <entry key="108" type="xstring" value="STATE (#2)"/>
+                <entry key="109" type="xstring" value="VEH_NO (#1)"/>
+                <entry key="110" type="xstring" value="VE_FORMS (#2)"/>
+                <entry key="111" type="xstring" value="NUMOCCS"/>
+                <entry key="112" type="xstring" value="DAY (#2)"/>
+                <entry key="113" type="xstring" value="MONTH (#2)"/>
+                <entry key="114" type="xstring" value="HOUR (#2)"/>
+                <entry key="115" type="xstring" value="MINUTE (#2)"/>
+                <entry key="116" type="xstring" value="HARM_EV (#2)"/>
+                <entry key="117" type="xstring" value="MAN_COLL (#2)"/>
+                <entry key="118" type="xstring" value="UNITTYPE"/>
+                <entry key="119" type="xstring" value="HIT_RUN"/>
+                <entry key="120" type="xstring" value="REG_STAT"/>
+                <entry key="121" type="xstring" value="OWNER"/>
+                <entry key="122" type="xstring" value="MAKE (#1)"/>
+                <entry key="123" type="xstring" value="MODEL"/>
+                <entry key="124" type="xstring" value="MAK_MOD (#1)"/>
+                <entry key="125" type="xstring" value="BODY_TYP (#1)"/>
+                <entry key="126" type="xstring" value="MOD_YEAR (#1)"/>
+                <entry key="127" type="xstring" value="VIN_9"/>
+                <entry key="128" type="xstring" value="TOW_VEH (#1)"/>
+                <entry key="129" type="xstring" value="J_KNIFE"/>
+                <entry key="130" type="xstring" value="MCARR_I1"/>
+                <entry key="131" type="xstring" value="MCARR_I2"/>
+                <entry key="132" type="xstring" value="MCARR_ID"/>
+                <entry key="133" type="xstring" value="GVWR"/>
+                <entry key="134" type="xstring" value="V_CONFIG"/>
+                <entry key="135" type="xstring" value="CARGO_BT"/>
+                <entry key="136" type="xstring" value="HAZ_INV"/>
+                <entry key="137" type="xstring" value="HAZ_PLAC"/>
+                <entry key="138" type="xstring" value="HAZ_ID"/>
+                <entry key="139" type="xstring" value="HAZ_CNO"/>
+                <entry key="140" type="xstring" value="HAZ_REL"/>
+                <entry key="141" type="xstring" value="BUS_USE"/>
+                <entry key="142" type="xstring" value="SPEC_USE (#1)"/>
+                <entry key="143" type="xstring" value="EMER_USE (#1)"/>
+                <entry key="144" type="xstring" value="TRAV_SP"/>
+                <entry key="145" type="xstring" value="UNDERIDE"/>
+                <entry key="146" type="xstring" value="ROLLOVER (#1)"/>
+                <entry key="147" type="xstring" value="ROLINLOC"/>
+                <entry key="148" type="xstring" value="IMPACT1 (#1)"/>
+                <entry key="149" type="xstring" value="DEFORMED"/>
+                <entry key="150" type="xstring" value="TOWED"/>
+                <entry key="151" type="xstring" value="M_HARM"/>
+                <entry key="152" type="xstring" value="VEH_SC1"/>
+                <entry key="153" type="xstring" value="VEH_SC2"/>
+                <entry key="154" type="xstring" value="FIRE_EXP (#1)"/>
+                <entry key="155" type="xstring" value="DR_PRES"/>
+                <entry key="156" type="xstring" value="L_STATE"/>
+                <entry key="157" type="xstring" value="DR_ZIP"/>
+                <entry key="158" type="xstring" value="L_STATUS"/>
+                <entry key="159" type="xstring" value="L_TYPE"/>
+                <entry key="160" type="xstring" value="CDL_STAT"/>
+                <entry key="161" type="xstring" value="L_ENDORS"/>
+                <entry key="162" type="xstring" value="L_COMPL"/>
+                <entry key="163" type="xstring" value="L_RESTRI"/>
+                <entry key="164" type="xstring" value="DR_HGT"/>
+                <entry key="165" type="xstring" value="DR_WGT"/>
+                <entry key="166" type="xstring" value="PREV_ACC"/>
+                <entry key="167" type="xstring" value="PREV_SUS"/>
+                <entry key="168" type="xstring" value="PREV_DWI"/>
+                <entry key="169" type="xstring" value="PREV_SPD"/>
+                <entry key="170" type="xstring" value="PREV_OTH"/>
+                <entry key="171" type="xstring" value="FIRST_MO"/>
+                <entry key="172" type="xstring" value="FIRST_YR"/>
+                <entry key="173" type="xstring" value="LAST_MO"/>
+                <entry key="174" type="xstring" value="LAST_YR"/>
+                <entry key="175" type="xstring" value="SPEEDREL"/>
+                <entry key="176" type="xstring" value="DR_SF1"/>
+                <entry key="177" type="xstring" value="DR_SF2"/>
+                <entry key="178" type="xstring" value="DR_SF3"/>
+                <entry key="179" type="xstring" value="DR_SF4"/>
+                <entry key="180" type="xstring" value="VTRAFWAY"/>
+                <entry key="181" type="xstring" value="VNUM_LAN"/>
+                <entry key="182" type="xstring" value="VSPD_LIM"/>
+                <entry key="183" type="xstring" value="VALIGN"/>
+                <entry key="184" type="xstring" value="VPROFILE"/>
+                <entry key="185" type="xstring" value="VPAVETYP"/>
+                <entry key="186" type="xstring" value="VSURCOND"/>
+                <entry key="187" type="xstring" value="VTRAFCON"/>
+                <entry key="188" type="xstring" value="VTCONT_F"/>
+                <entry key="189" type="xstring" value="P_CRASH1"/>
+                <entry key="190" type="xstring" value="P_CRASH2"/>
+                <entry key="191" type="xstring" value="P_CRASH3"/>
+                <entry key="192" type="xstring" value="PCRASH4"/>
+                <entry key="193" type="xstring" value="PCRASH5"/>
+                <entry key="194" type="xstring" value="ACC_TYPE"/>
+                <entry key="195" type="xstring" value="DEATHS"/>
+                <entry key="196" type="xstring" value="DR_DRINK"/>
+                <entry key="197" type="xstring" value="TWAY_ID"/>
+                <entry key="198" type="xstring" value="TWAY_ID2"/>
+                <entry key="199" type="xstring" value="CERT_NO"/>
+                <entry key="200" type="xstring" value="VIN"/>
+                <entry key="201" type="xstring" value="VIN_1"/>
+                <entry key="202" type="xstring" value="VIN_2"/>
+                <entry key="203" type="xstring" value="VIN_3"/>
+                <entry key="204" type="xstring" value="VIN_4"/>
+                <entry key="205" type="xstring" value="VIN_5"/>
+                <entry key="206" type="xstring" value="VIN_6"/>
+                <entry key="207" type="xstring" value="VIN_7"/>
+                <entry key="208" type="xstring" value="VIN_8"/>
+                <entry key="209" type="xstring" value="VIN_10"/>
+                <entry key="210" type="xstring" value="VIN_11"/>
+                <entry key="211" type="xstring" value="VIN_12"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="colFilter_minMax">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="212"/>
+                <entry key="0" type="xstring" value="STATE"/>
+                <entry key="1" type="xstring" value="ST_CASE"/>
+                <entry key="2" type="xstring" value="VE_TOTAL"/>
+                <entry key="3" type="xstring" value="VE_FORMS"/>
+                <entry key="4" type="xstring" value="PVH_INVL"/>
+                <entry key="5" type="xstring" value="PEDS"/>
+                <entry key="6" type="xstring" value="PERNOTMVIT"/>
+                <entry key="7" type="xstring" value="PERMVIT"/>
+                <entry key="8" type="xstring" value="PERSONS"/>
+                <entry key="9" type="xstring" value="COUNTY"/>
+                <entry key="10" type="xstring" value="CITY"/>
+                <entry key="11" type="xstring" value="DAY"/>
+                <entry key="12" type="xstring" value="MONTH"/>
+                <entry key="13" type="xstring" value="YEAR"/>
+                <entry key="14" type="xstring" value="DAY_WEEK"/>
+                <entry key="15" type="xstring" value="HOUR"/>
+                <entry key="16" type="xstring" value="MINUTE"/>
+                <entry key="17" type="xstring" value="NHS"/>
+                <entry key="18" type="xstring" value="ROAD_FNC"/>
+                <entry key="19" type="xstring" value="ROUTE"/>
+                <entry key="20" type="xstring" value="MILEPT"/>
+                <entry key="21" type="xstring" value="SP_JUR"/>
+                <entry key="22" type="xstring" value="HARM_EV"/>
+                <entry key="23" type="xstring" value="MAN_COLL"/>
+                <entry key="24" type="xstring" value="RELJCT1"/>
+                <entry key="25" type="xstring" value="RELJCT2"/>
+                <entry key="26" type="xstring" value="TYP_INT"/>
+                <entry key="27" type="xstring" value="WRK_ZONE"/>
+                <entry key="28" type="xstring" value="REL_ROAD"/>
+                <entry key="29" type="xstring" value="LGT_COND"/>
+                <entry key="30" type="xstring" value="WEATHER1"/>
+                <entry key="31" type="xstring" value="WEATHER2"/>
+                <entry key="32" type="xstring" value="WEATHER"/>
+                <entry key="33" type="xstring" value="SCH_BUS"/>
+                <entry key="34" type="xstring" value="RAIL"/>
+                <entry key="35" type="xstring" value="NOT_HOUR"/>
+                <entry key="36" type="xstring" value="NOT_MIN"/>
+                <entry key="37" type="xstring" value="ARR_HOUR"/>
+                <entry key="38" type="xstring" value="ARR_MIN"/>
+                <entry key="39" type="xstring" value="HOSP_HR"/>
+                <entry key="40" type="xstring" value="HOSP_MN"/>
+                <entry key="41" type="xstring" value="CF1"/>
+                <entry key="42" type="xstring" value="CF2"/>
+                <entry key="43" type="xstring" value="CF3"/>
+                <entry key="44" type="xstring" value="FATALS"/>
+                <entry key="45" type="xstring" value="DRUNK_DR"/>
+                <entry key="46" type="xstring" value="STATE (#1)"/>
+                <entry key="47" type="xstring" value="VE_FORMS (#1)"/>
+                <entry key="48" type="xstring" value="VEH_NO"/>
+                <entry key="49" type="xstring" value="PER_NO"/>
+                <entry key="50" type="xstring" value="STR_VEH"/>
+                <entry key="51" type="xstring" value="COUNTY (#1)"/>
+                <entry key="52" type="xstring" value="DAY (#1)"/>
+                <entry key="53" type="xstring" value="MONTH (#1)"/>
+                <entry key="54" type="xstring" value="HOUR (#1)"/>
+                <entry key="55" type="xstring" value="MINUTE (#1)"/>
+                <entry key="56" type="xstring" value="ROAD_FNC (#1)"/>
+                <entry key="57" type="xstring" value="HARM_EV (#1)"/>
+                <entry key="58" type="xstring" value="MAN_COLL (#1)"/>
+                <entry key="59" type="xstring" value="SCH_BUS (#1)"/>
+                <entry key="60" type="xstring" value="BODY_TYP"/>
+                <entry key="61" type="xstring" value="TOW_VEH"/>
+                <entry key="62" type="xstring" value="SPEC_USE"/>
+                <entry key="63" type="xstring" value="EMER_USE"/>
+                <entry key="64" type="xstring" value="ROLLOVER"/>
+                <entry key="65" type="xstring" value="FIRE_EXP"/>
+                <entry key="66" type="xstring" value="AGE"/>
+                <entry key="67" type="xstring" value="SEX"/>
+                <entry key="68" type="xstring" value="PER_TYP"/>
+                <entry key="69" type="xstring" value="INJ_SEV"/>
+                <entry key="70" type="xstring" value="SEAT_POS"/>
+                <entry key="71" type="xstring" value="REST_USE"/>
+                <entry key="72" type="xstring" value="REST_MIS"/>
+                <entry key="73" type="xstring" value="AIR_BAG"/>
+                <entry key="74" type="xstring" value="EJECTION"/>
+                <entry key="75" type="xstring" value="EJ_PATH"/>
+                <entry key="76" type="xstring" value="EXTRICAT"/>
+                <entry key="77" type="xstring" value="DRINKING"/>
+                <entry key="78" type="xstring" value="ALC_DET"/>
+                <entry key="79" type="xstring" value="ALC_STATUS"/>
+                <entry key="80" type="xstring" value="ATST_TYP"/>
+                <entry key="81" type="xstring" value="ALC_RES"/>
+                <entry key="82" type="xstring" value="DRUGS"/>
+                <entry key="83" type="xstring" value="DRUG_DET"/>
+                <entry key="84" type="xstring" value="DSTATUS"/>
+                <entry key="85" type="xstring" value="DRUGTST1"/>
+                <entry key="86" type="xstring" value="DRUGTST2"/>
+                <entry key="87" type="xstring" value="DRUGTST3"/>
+                <entry key="88" type="xstring" value="DRUGRES1"/>
+                <entry key="89" type="xstring" value="DRUGRES2"/>
+                <entry key="90" type="xstring" value="DRUGRES3"/>
+                <entry key="91" type="xstring" value="HOSPITAL"/>
+                <entry key="92" type="xstring" value="DOA"/>
+                <entry key="93" type="xstring" value="DEATH_DA"/>
+                <entry key="94" type="xstring" value="DEATH_MO"/>
+                <entry key="95" type="xstring" value="DEATH_YR"/>
+                <entry key="96" type="xstring" value="DEATH_HR"/>
+                <entry key="97" type="xstring" value="DEATH_MN"/>
+                <entry key="98" type="xstring" value="DEATH_TM"/>
+                <entry key="99" type="xstring" value="LAG_HRS"/>
+                <entry key="100" type="xstring" value="LAG_MINS"/>
+                <entry key="101" type="xstring" value="P_SF1"/>
+                <entry key="102" type="xstring" value="P_SF2"/>
+                <entry key="103" type="xstring" value="P_SF3"/>
+                <entry key="104" type="xstring" value="WORK_INJ"/>
+                <entry key="105" type="xstring" value="HISPANIC"/>
+                <entry key="106" type="xstring" value="RACE"/>
+                <entry key="107" type="xstring" value="LOCATION"/>
+                <entry key="108" type="xstring" value="STATE (#2)"/>
+                <entry key="109" type="xstring" value="VEH_NO (#1)"/>
+                <entry key="110" type="xstring" value="VE_FORMS (#2)"/>
+                <entry key="111" type="xstring" value="NUMOCCS"/>
+                <entry key="112" type="xstring" value="DAY (#2)"/>
+                <entry key="113" type="xstring" value="MONTH (#2)"/>
+                <entry key="114" type="xstring" value="HOUR (#2)"/>
+                <entry key="115" type="xstring" value="MINUTE (#2)"/>
+                <entry key="116" type="xstring" value="HARM_EV (#2)"/>
+                <entry key="117" type="xstring" value="MAN_COLL (#2)"/>
+                <entry key="118" type="xstring" value="UNITTYPE"/>
+                <entry key="119" type="xstring" value="HIT_RUN"/>
+                <entry key="120" type="xstring" value="REG_STAT"/>
+                <entry key="121" type="xstring" value="OWNER"/>
+                <entry key="122" type="xstring" value="MAKE (#1)"/>
+                <entry key="123" type="xstring" value="MODEL"/>
+                <entry key="124" type="xstring" value="MAK_MOD (#1)"/>
+                <entry key="125" type="xstring" value="BODY_TYP (#1)"/>
+                <entry key="126" type="xstring" value="MOD_YEAR (#1)"/>
+                <entry key="127" type="xstring" value="VIN_9"/>
+                <entry key="128" type="xstring" value="TOW_VEH (#1)"/>
+                <entry key="129" type="xstring" value="J_KNIFE"/>
+                <entry key="130" type="xstring" value="MCARR_I1"/>
+                <entry key="131" type="xstring" value="MCARR_I2"/>
+                <entry key="132" type="xstring" value="MCARR_ID"/>
+                <entry key="133" type="xstring" value="GVWR"/>
+                <entry key="134" type="xstring" value="V_CONFIG"/>
+                <entry key="135" type="xstring" value="CARGO_BT"/>
+                <entry key="136" type="xstring" value="HAZ_INV"/>
+                <entry key="137" type="xstring" value="HAZ_PLAC"/>
+                <entry key="138" type="xstring" value="HAZ_ID"/>
+                <entry key="139" type="xstring" value="HAZ_CNO"/>
+                <entry key="140" type="xstring" value="HAZ_REL"/>
+                <entry key="141" type="xstring" value="BUS_USE"/>
+                <entry key="142" type="xstring" value="SPEC_USE (#1)"/>
+                <entry key="143" type="xstring" value="EMER_USE (#1)"/>
+                <entry key="144" type="xstring" value="TRAV_SP"/>
+                <entry key="145" type="xstring" value="UNDERIDE"/>
+                <entry key="146" type="xstring" value="ROLLOVER (#1)"/>
+                <entry key="147" type="xstring" value="ROLINLOC"/>
+                <entry key="148" type="xstring" value="IMPACT1 (#1)"/>
+                <entry key="149" type="xstring" value="DEFORMED"/>
+                <entry key="150" type="xstring" value="TOWED"/>
+                <entry key="151" type="xstring" value="M_HARM"/>
+                <entry key="152" type="xstring" value="VEH_SC1"/>
+                <entry key="153" type="xstring" value="VEH_SC2"/>
+                <entry key="154" type="xstring" value="FIRE_EXP (#1)"/>
+                <entry key="155" type="xstring" value="DR_PRES"/>
+                <entry key="156" type="xstring" value="L_STATE"/>
+                <entry key="157" type="xstring" value="DR_ZIP"/>
+                <entry key="158" type="xstring" value="L_STATUS"/>
+                <entry key="159" type="xstring" value="L_TYPE"/>
+                <entry key="160" type="xstring" value="CDL_STAT"/>
+                <entry key="161" type="xstring" value="L_ENDORS"/>
+                <entry key="162" type="xstring" value="L_COMPL"/>
+                <entry key="163" type="xstring" value="L_RESTRI"/>
+                <entry key="164" type="xstring" value="DR_HGT"/>
+                <entry key="165" type="xstring" value="DR_WGT"/>
+                <entry key="166" type="xstring" value="PREV_ACC"/>
+                <entry key="167" type="xstring" value="PREV_SUS"/>
+                <entry key="168" type="xstring" value="PREV_DWI"/>
+                <entry key="169" type="xstring" value="PREV_SPD"/>
+                <entry key="170" type="xstring" value="PREV_OTH"/>
+                <entry key="171" type="xstring" value="FIRST_MO"/>
+                <entry key="172" type="xstring" value="FIRST_YR"/>
+                <entry key="173" type="xstring" value="LAST_MO"/>
+                <entry key="174" type="xstring" value="LAST_YR"/>
+                <entry key="175" type="xstring" value="SPEEDREL"/>
+                <entry key="176" type="xstring" value="DR_SF1"/>
+                <entry key="177" type="xstring" value="DR_SF2"/>
+                <entry key="178" type="xstring" value="DR_SF3"/>
+                <entry key="179" type="xstring" value="DR_SF4"/>
+                <entry key="180" type="xstring" value="VTRAFWAY"/>
+                <entry key="181" type="xstring" value="VNUM_LAN"/>
+                <entry key="182" type="xstring" value="VSPD_LIM"/>
+                <entry key="183" type="xstring" value="VALIGN"/>
+                <entry key="184" type="xstring" value="VPROFILE"/>
+                <entry key="185" type="xstring" value="VPAVETYP"/>
+                <entry key="186" type="xstring" value="VSURCOND"/>
+                <entry key="187" type="xstring" value="VTRAFCON"/>
+                <entry key="188" type="xstring" value="VTCONT_F"/>
+                <entry key="189" type="xstring" value="P_CRASH1"/>
+                <entry key="190" type="xstring" value="P_CRASH2"/>
+                <entry key="191" type="xstring" value="P_CRASH3"/>
+                <entry key="192" type="xstring" value="PCRASH4"/>
+                <entry key="193" type="xstring" value="PCRASH5"/>
+                <entry key="194" type="xstring" value="ACC_TYPE"/>
+                <entry key="195" type="xstring" value="DEATHS"/>
+                <entry key="196" type="xstring" value="DR_DRINK"/>
+                <entry key="197" type="xstring" value="TWAY_ID"/>
+                <entry key="198" type="xstring" value="TWAY_ID2"/>
+                <entry key="199" type="xstring" value="CERT_NO"/>
+                <entry key="200" type="xstring" value="VIN"/>
+                <entry key="201" type="xstring" value="VIN_1"/>
+                <entry key="202" type="xstring" value="VIN_2"/>
+                <entry key="203" type="xstring" value="VIN_3"/>
+                <entry key="204" type="xstring" value="VIN_4"/>
+                <entry key="205" type="xstring" value="VIN_5"/>
+                <entry key="206" type="xstring" value="VIN_6"/>
+                <entry key="207" type="xstring" value="VIN_7"/>
+                <entry key="208" type="xstring" value="VIN_8"/>
+                <entry key="209" type="xstring" value="VIN_10"/>
+                <entry key="210" type="xstring" value="VIN_11"/>
+                <entry key="211" type="xstring" value="VIN_12"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <entry key="max_poss_values" type="xint" value="-1"/>
+        <entry key="possible_values_unselected_retain" type="xboolean" value="true"/>
+        <entry key="min_max_unselected_retain" type="xboolean" value="true"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="287"/>
+        <entry key="y-coordinate" type="xint" value="299"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.domain.dialog2.DomainNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Domain Calculator"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.1.v202201171147"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Domain Calculator"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2200, Cols: 17"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="2f7eb058-8f2f-47b1-976e-4abf7503c2e9"/>
+    </config>
+</config>

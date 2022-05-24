@@ -1,0 +1,28 @@
+
+
+
+div.knime-table-container {
+	padding-left: 3% !important; }
+div.knime-tab {
+	padding-left: 3% !important;}
+
+body {
+	width: auto !important; height: auto !important}
+
+
+
+
+#tabs .tab-content .tab-pane {
+
+    border-top: 1px solid #ddd !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+    background-color: #ffd73c !important;
+    color: black !important;
+    border: 2px solid black !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    background-color: #ffd73c !important;
+}

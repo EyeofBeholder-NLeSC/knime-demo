@@ -1,0 +1,13 @@
+/* example style rule */
+.knime-service-header {
+	display: none !important; 
+}
+
+.knime-table-control-text {
+	display: none;
+}
+
+.knime-title {
+	font-size: 13px;
+	font-weight: bold;
+}
