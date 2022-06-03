@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model"/>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="training a local GLM%%00013%%00010for each input instance to generate a%%00013%%00010 %%00013%%00010Local Inter. Model-agn. Explanation"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="487"/>
+        <entry key="y-coordinate" type="xint" value="245"/>
+        <entry key="width" type="xint" value="199"/>
+        <entry key="height" type="xint" value="60"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="64"/>
+                <entry key="length" type="xint" value="1"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_1">
+                <entry key="start" type="xint" value="70"/>
+                <entry key="length" type="xint" value="1"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_2">
+                <entry key="start" type="xint" value="77"/>
+                <entry key="length" type="xint" value="1"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_3">
+                <entry key="start" type="xint" value="88"/>
+                <entry key="length" type="xint" value="1"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="47"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="inport_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="38"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <config key="metadata">
+        <entry key="description" type="xstring" value="This Component is able to create a Local Interpretable Model-agnostic Explanation (LIME) to explain the predictions of any machine learning model in KNIME.%%00013%%00010%%00013%%00010You have to use this component together with LIME Loop Start node from the KNIME Machine Learning Interpretability Extension. %%00013%%00010Please install KNIME H2O Machine Learning Integration.%%00013%%00010%%00013%%00010https://hub.knime.com/knime/extensions/org.knime.features.ext.h2o/latest%%00013%%00010%%00013%%00010The workflow within the Component will go through the following steps:%%00013%%000101. Using LASSO to select relevant features.%%00013%%000102. Training a local surrogate Generalized Linear Model (GLM) using Weighted Least Squares (WLS).%%00013%%000103. Output the coefficients of the local model able to explain the original instance prediction.%%00013%%00010%%00013%%00010More info about LIME at: %%00013%%00010%%00013%%00010homes.cs.washington.edu/~marcotcr/blog/lime"/>
+        <entry key="type" type="xstring" value="LEARNER"/>
+        <entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR4nGNgoDYwMDBwMDIyaoBhID+AaM1ADQUmJiYOQE0CMDEQ39jYeD1QTIGgZlyKQAYaGhouwOdsA6ABCfgsABkOsgSX7Q14nUdI3cAbAAppEManGW8YQE2fgBx92GzHG5UgSWzxDTIUpBkUjfgsQLYpATklQtOHACwtEGUIHlcOIkMIxRrRAABplTOgJ4UUigAAAABJRU5ErkJggg=="/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="Predicted Samples"/>
+                <entry key="description" type="xstring" value="A table with a Double Type prediction column of the sampled instances. Such prediction column can be created scoring the LIME Loop Start top ouput table with the predictor node of your model. %%00013%%00010%%00013%%00010If your model is solving a classification task make sure to output a pobability column of Double Type."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+            <config key="inport_1">
+                <entry key="name" type="xstring" value="Test Set Row Instances"/>
+                <entry key="description" type="xstring" value="This table contains the data used to learn a local surrogate model including a weight column and it is produced by Loop Start node bottom port. "/>
+                <entry key="index" type="xint" value="1"/>
+            </config>
+        </config>
+        <config key="outports">
+            <config key="outport_0">
+                <entry key="name" type="xstring" value="Explanation Table"/>
+                <entry key="description" type="xstring" value="A table containing the explanation. Each column with a feature column name holds the single value of the coefficient of the trained local surrogate linear model.%%00013%%00010 %%00013%%00010Additionally the columns &quot;Target&quot;, &quot;Intercept&quot; and &quot;RMSE&quot; are added. &quot;Target&quot; describes which prediction column of the orginal model is explained. &quot;Intercept&quot; shows the value of the intecept of the trained linear model. &quot;RMSE&quot; refers to the precision of the explanation. The lower, the better as it is computed using the weighted root mean squared error comparing the original predictions and the predictions created by the linear surrogate model.%%00013%%00010"/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_template_information">
+        <entry key="role" type="xstring" value="Link"/>
+        <entry key="timestamp" type="xstring" value="2019-12-05 15:07:27 +0000"/>
+        <entry key="sourceURI" type="xstring" value="knime://My-KNIME-Hub/Users/knime/Examples/00_Components/Model%20Interpretability/Compute%20LIME"/>
+    </config>
+    <entry key="layoutJSON" type="xstring" value=""/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>
