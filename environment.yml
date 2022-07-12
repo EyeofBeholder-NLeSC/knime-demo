@@ -1,0 +1,50 @@
+name: eye-of-beholder
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h8ffe710_4
+  - ca-certificates=2022.6.15=h5b45459_0
+  - intel-openmp=2022.1.0=h57928b3_3787
+  - libblas=3.9.0=15_win64_mkl
+  - libcblas=3.9.0=15_win64_mkl
+  - libffi=3.4.2=h8ffe710_5
+  - liblapack=3.9.0=15_win64_mkl
+  - libzlib=1.2.12=h8ffe710_1
+  - mkl=2022.1.0=h6a75c08_874
+  - numpy=1.23.1=py38h223ccf5_0
+  - openssl=3.0.5=h8ffe710_0
+  - pandas=1.4.3=py38hcc40339_0
+  - pip=22.1.2=pyhd8ed1ab_0
+  - python=3.8.13=hcf16a7b_0_cpython
+  - python-dateutil=2.8.2=pyhd8ed1ab_0
+  - python_abi=3.8=2_cp38
+  - pytz=2022.1=pyhd8ed1ab_0
+  - setuptools=63.1.0=py38haa244fe_0
+  - six=1.16.0=pyh6c4a22f_0
+  - sqlite=3.39.0=h8ffe710_0
+  - tbb=2021.5.0=h2d74725_1
+  - tk=8.6.12=h8ffe710_0
+  - ucrt=10.0.20348.0=h57928b3_0
+  - vc=14.2=hb210afc_6
+  - vs2015_runtime=14.29.30037=h902a5da_6
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - xz=5.2.5=h62dcd97_1
+  - pip:
+    - attrs==21.4.0
+    - babel==2.10.3
+    - certifi==2022.6.15
+    - charset-normalizer==2.1.0
+    - colorama==0.4.5
+    - csvw==3.0.0
+    - idna==3.3
+    - isodate==0.6.1
+    - language-tags==1.1.0
+    - pyparsing==3.0.9
+    - rdflib==6.1.1
+    - requests==2.28.1
+    - rfc3986==1.5.0
+    - uritemplate==4.1.1
+    - urllib3==1.26.10
+prefix: C:\Users\DafnevanKuppevelt\Anaconda3\envs\eye-of-beholder
